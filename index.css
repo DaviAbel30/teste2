@@ -9,12 +9,12 @@
 
 }
 
-.header{
-  background-color: #032342;
+header{
+  color: #032342;
 }
 
 body{
-  display: flex;
+  
   align-items: center;
   justify-content:center; 
   min-height:100vh;
@@ -77,6 +77,10 @@ body{
   justify-content: center;
   flex-direction: column;
 } 
+
+.carousel.no-transition{
+  scroll-behavior: auto;
+}
 
 .carousel .draggin{
   scroll-snap-type: none;
